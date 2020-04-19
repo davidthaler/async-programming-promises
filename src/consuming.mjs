@@ -28,7 +28,7 @@ export function chain(){
                     )
             }
         ).then( ({data}) => {
-            return setText(`City: ${data.city}`);
+            return setText(`City: ${data.city}`)
         })
 }
 
